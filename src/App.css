@@ -1,0 +1,31 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+
+  background:#f5f7fb;
+
+}
+
+.container{
+
+  display:flex;
+
+}
+
+.content{
+
+  flex:1;
+
+  padding:25px;
+
+  min-height:calc(100vh - 64px);
+
+  background:#1e293b;
+
+  overflow:auto;
+
+}
